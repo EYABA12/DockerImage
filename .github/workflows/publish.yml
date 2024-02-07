@@ -9,6 +9,8 @@ on:
 jobs:
   publish-hello-docker-image:
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
     steps:
       - name: checkout github context
         uses: actions/checkout@v4
