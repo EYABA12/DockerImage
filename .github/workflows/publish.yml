@@ -21,4 +21,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: eyabenamor949/pushdocker: image
+          tags: eyabenamor949/pushdocker:image
